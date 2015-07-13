@@ -128,7 +128,7 @@ daily_median
 ```
 ## [1] 10766.19
 ```
-The mean is **1.076619 &times; 10<sup>4</sup>** and the median is **1.076619 &times; 10<sup>4</sup>**  
+The mean is **10766.19** and the median is **10766.19**  
 
 values are missed by day, i.e. values are missed for the entire day when they are missed, and therefore daily totals added by imputed 5-minute values are all the same as the average daily steps. Therefore, the distribution curve will be much higher in the middle and the median and the mean converge.
 

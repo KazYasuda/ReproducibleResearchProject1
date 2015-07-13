@@ -86,7 +86,7 @@ daily_mean
 daily_median <- median(dailyStepsImputed)
 daily_median
 ```
-The mean is **`r round(daily_mean,2)`** and the median is **`r round(daily_median,2)`**  
+The mean is **`r sprintf("%.2f", daily_mean)`** and the median is **`r sprintf("%.2f", daily_median)`**  
 
 values are missed by day, i.e. values are missed for the entire day when they are missed, and therefore daily totals added by imputed 5-minute values are all the same as the average daily steps. Therefore, the distribution curve will be much higher in the middle and the median and the mean converge.
 
